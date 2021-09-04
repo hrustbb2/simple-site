@@ -6,7 +6,8 @@ module.exports = env => {
   let config = {};
 
   config.entry = [
-      './src/style.scss',
+      './src/index/index.scss',
+      './src/topic/topic.scss',
   ];
 
   config.module = {

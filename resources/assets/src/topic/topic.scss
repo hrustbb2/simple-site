@@ -50,7 +50,7 @@ button {
     cursor: pointer;
 }
 
-@import './bem.scss';
-@import './main-section.scss';
-@import './about-section.scss';
-@import './footer-section.scss';
+@import '../common/bem.scss';
+@import '../common/top-section.scss';
+@import '../common/about-section.scss';
+@import '../common/footer-section.scss';

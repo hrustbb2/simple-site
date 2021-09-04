@@ -7,7 +7,8 @@
   "private": true,
   "scripts": {
     "buildJS": "cross-env NODE_ENV=development webpack --config=js.config.js --progress --hide-modules",
-    "buildCSS": "cross-env NODE_ENV=development webpack --config=css.config.js --progress --hide-modules"
+    "buildCSS": "cross-env NODE_ENV=development webpack --config=css.config.js --progress --hide-modules",
+    "buildHTML": "html ./html/html.json && cp -r ./img ../../public/img && cp -r ./fonts ../../public/fonts"
   },
   "dependencies": {
     "@types/jquery": "^3.3.30",
@@ -22,6 +23,7 @@
     "css-minimizer-webpack-plugin": "^1.2.0",
     "extract-loader": "^3.1.0",
     "file-loader": "^1.1.11",
+    "html_proc": "^1.0.3",
     "jquery": "^3.4.1",
     "mini-css-extract-plugin": "^1.3.1",
     "node-sass": "^4.12.0",
