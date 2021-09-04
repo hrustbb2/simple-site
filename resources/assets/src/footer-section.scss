@@ -1,0 +1,42 @@
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 210px;
+    padding-bottom: 50px;
+}
+
+.footer-section__header {
+    margin: auto;
+}
+
+.footer-section__text {
+    margin: 30px auto;
+    width: 400px;
+    text-align: center;
+}
+
+.footer-section__subscription {
+    display: flex;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.footer-section__social-links {
+    display: flex;
+    margin: auto;
+}
+
+.footer-section__social-link:not(:last-child) {
+    margin-right: 30px;
+}
+
+.footer-section__subscription-form {
+    display: flex;
+    border-radius: 17px;
+    background: #fff;
+}
+
+.footer-section__subscription-form button {
+    position: relative;
+    left: 2px;
+}

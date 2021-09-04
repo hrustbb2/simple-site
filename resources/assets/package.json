@@ -1,0 +1,40 @@
+{
+  "name": "company-form",
+  "description": "My admin",
+  "version": "1.0.0",
+  "author": "hrustbb2",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "buildJS": "cross-env NODE_ENV=development webpack --config=js.config.js --progress --hide-modules",
+    "buildCSS": "cross-env NODE_ENV=development webpack --config=css.config.js --progress --hide-modules"
+  },
+  "dependencies": {
+    "@types/jquery": "^3.3.30",
+    "@types/node": "^12.6.9",
+    "autoprefixer": "^9.6.1",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.11",
+    "css-minimizer-webpack-plugin": "^1.2.0",
+    "extract-loader": "^3.1.0",
+    "file-loader": "^1.1.11",
+    "jquery": "^3.4.1",
+    "mini-css-extract-plugin": "^1.3.1",
+    "node-sass": "^4.12.0",
+    "postcss": "^7.0.17",
+    "postcss-loader": "^3.0.0",
+    "precss": "^4.0.0",
+    "pretty": "^2.0.0",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.23.1",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.6.2",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.12"
+  }
+}

@@ -1,0 +1,35 @@
+.about-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+}
+
+.about-section__content-wrapper {
+    margin: auto;
+}
+
+.about-section__content {
+    display: flex;
+}
+
+.about-picture {
+    background-image: url('../img/rectangle.png');
+    width: 526px;
+    height: 526px;
+    background-repeat: no-repeat;
+}
+
+.about-picture-img {
+    position: relative;
+    top: 80px;
+    left: 50px;
+}
+
+.about-text {
+    flex: 1;
+    margin: auto 0 auto 140px;
+}
+
+.about-text__section-header {
+    margin-bottom: 45px;
+}
